@@ -1,0 +1,5 @@
+cd "/c/Users/H E R O/Desktop/ets2-mod-sync"
+ssh -i "ets2-scraper.pem" ubuntu@3.89.229.87
+cd ~/ets2-modhub
+source mods_env/bin/activate
+screen -r scraper
